@@ -1,0 +1,8 @@
+{
+
+	"randomAPIKey" : "f3139fc4-e2f5-45f9-9f81-edc653788165",
+	"virusAPIKey" : "6dee3b789718e45f9affd7f810a71349ad45e8e1430a9f51ce9f20492eb2b0e1",
+	"nrBatches" : "5",
+	"batchSize" : "5",
+	"requestsLogFile" : "logs.txt"
+}
