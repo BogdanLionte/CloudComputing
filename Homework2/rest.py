@@ -303,7 +303,7 @@ class RequestsHandler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write("Order with id {0} already exists".format(order_id).encode())
                 return
-            query = "insert into orders values (?, ?, ?)"
+            query = "insert into orders values (?, ?, ?, ?)"
             self.cursor.execute(query, (order_id, json_body["customer_id"], json_body["product_id"]))
             self.conn.commit()
             self.send_response(201)
